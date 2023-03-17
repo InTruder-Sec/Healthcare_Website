@@ -1,38 +1,102 @@
-*{
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*  Styling For Pages (Routing Pages) */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.home-text .home-text-heading {
+  font-size: 2rem;
+}
+
+.home-text-sub-text {
+  margin-top: 17px;
+  color: #87898c;
+}
+
+.home-text .home-text-btns {
+  margin-top: 70px;
+}
+
+.home-text-btns .btn {
+  padding: 12px 15px 12px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #02c39a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-text-btns a {
+  color: #000;
+  margin-left: 20px;
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home .home-img {
+  margin-left: -20%;
+}
+
+.home .home-img img {
+  width: 120%;
+}
+
+.home-1 .home-heading-1 {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 10px 0px 10px 0px;
+}
+
+.home-1 .home-heading-1::before,
+.home-1 .home-heading-1::after {
+  content: '';
+  width: 50%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #ffb703;
+  position: absolute;
+}
+
+.home-1 .home-heading-1::before {
+  top: -30px;
+  right: 0;
+}
+.home-1 .home-heading-1::after {
+  bottom: -30px;
+  left: 0;
+}
+
+.home-content-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 8% 0 8% 0;
+}
+
+.home-content-1 .home-1-img img {
+  width: 125%;
+}
+
+.home-1-text-1,
+.home-1-text-2 {
+  font-size: 2.5rem;
+}
+
+.text-1 {
+  margin-bottom: 10%;
+}
+
+.img-2 {
+  margin-left: -20%;
 }
