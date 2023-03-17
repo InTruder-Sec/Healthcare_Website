@@ -1,43 +1,49 @@
-*{
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/*  Styling For Pages (Routing Pages) */
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.home-text .home-text-heading {
+  font-size: 2rem;
+}
+
+.home-text .home-text-sub-text {
+  margin-top: 17px;
+  color: #87898c;
+}
+
+.home-text .home-text-btns {
+  margin-top: 70px;
+}
+
+.home-text .home-text-btns .btn {
+  padding: 12px 15px 12px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #02c39a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-text .home-text-btns a {
+  color: #000;
+  margin-left: 20px;
+  text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home .home-img {
+  margin-left: -20%;
+}
+
+.home .home-img img {
+  width: 120%;
 }
