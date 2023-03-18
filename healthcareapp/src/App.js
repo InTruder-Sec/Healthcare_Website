@@ -8,6 +8,7 @@ import Testimonials from './pages/Testimonials';
 import Services from './pages/Services';
 import Videos from './pages/Videos';
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/videos" element={<Videos />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

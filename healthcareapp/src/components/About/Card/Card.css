@@ -33,3 +33,12 @@
   font-size: 28px;
   color: #87898c;
 }
+
+.hr-1 {
+  width: 35%;
+  margin: 20px auto;
+  height: 4px;
+  background-color: #ffb703;
+  border-radius: 5px;
+  border: none;
+}
