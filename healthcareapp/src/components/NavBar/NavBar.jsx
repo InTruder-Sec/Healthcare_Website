@@ -1,12 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './NavBar.css';
 import logo from '../../images/logo.png';
 
 const NavBar = () => {
   return (
     <div className="navBar">
-      <div className="left">
+      <div
+        className="left"
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+      >
         <img src={logo} alt="Logo" />
       </div>
       <div className="right">
