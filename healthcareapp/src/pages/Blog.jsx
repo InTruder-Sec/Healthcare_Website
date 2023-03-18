@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles/Blog.css";
 import LatestBlogImg from "./../images/blog/exercise.jpeg";
-import MpCards from '../components/Blog-Mp-Cards/Cards';
+import MpCards from '../components/Blog/Blog-Mp-Cards/Cards';
+import FeatureCard from '../components/Blog/FeatureCards/FeatureCards';
 
 
 const Blog = () => {
@@ -18,6 +19,7 @@ const Blog = () => {
             <div className='blog--latest--date'>2 Hours ago</div>
           </div>
           <div className='blog--latest--details'>
+            <div className='blog--latest--img'><img alt='latest-blog-img' className='blog--latest--img--plc' src={LatestBlogImg} ></img> </div>
             <div className='blog--latest--details--intro'>
               Lorem ipsum dolor sit amet. Et voluptatum molestiae in delectus sapiente ad quas iusto aut accusantium molestiae. Est omnis eveniet sit illo molestiae quo temporibus repudiandae qui quasi officiis et impedit doloremque. Hic omnis dolores rem quae assumenda ab minus recusandae sed enim suscipit eum quae sequi ex saepe sunt et saepe internos. Nam sunt voluptatum aut recusandae saepe sit voluptas doloremque!
               <br/><br/>
@@ -26,7 +28,6 @@ const Blog = () => {
               Sit adipisci modi At tempore odio rem voluptates repudiandae! Qui autem galisum quo laboriosam saepe et aliquid obcaecati qui accusantium sint ut dolor nulla aut tempore consequuntur. Sed quidem tempore sed dolor natus qui libero atque cum quia quam.
 
             </div>
-            <div className='blog--latest--img'><img alt='latest-blog-img' className='blog--latest--img--plc' src={LatestBlogImg} ></img> </div>
           </div>
         </div>
       </div>
@@ -35,7 +36,17 @@ const Blog = () => {
           <div className="blog--mp--hr"></div>
           <div className='MpCards'>
             <MpCards />
+            <MpCards />
+            <MpCards />
+            <MpCards />
+            <MpCards />
+            <MpCards />
           </div>
+        </div>
+        <div className='blog--feature'>
+          <FeatureCard />
+          <FeatureCard />
+          <FeatureCard />
         </div>
     </div>
   )
