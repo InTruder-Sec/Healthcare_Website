@@ -1,0 +1,49 @@
+.about {
+  text-align: center;
+}
+
+.about-heading {
+  margin-top: 4%;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.about-heading .heading-2 span {
+  color: #02c39a;
+}
+
+.about-heading::before,
+.about-heading::after {
+  content: '';
+  width: 50%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #ffb703;
+  position: absolute;
+}
+
+.about-heading::before {
+  top: -30px;
+  right: 0;
+}
+
+.about-heading::after {
+  left: 0;
+  bottom: -30px;
+}
+
+.about-main-heading {
+  margin-top: 5%;
+  color: #02c39a;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+  flex-wrap: wrap;
+  margin: 50px;
+}
