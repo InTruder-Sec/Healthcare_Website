@@ -1,12 +1,13 @@
 
 .blog {
-    padding: 70px 10% 70px 10%;
+    padding: 70px 1% 70px 10%;
 }
 
 .blog--main {
     background-color: #f6f6f6;
     width: 60%;
     display: inline-block;
+    border-radius: 5px;
     padding: 50px 60px 50px 60px;
 }
 
@@ -32,24 +33,24 @@
     font-size: 21px;
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .blog--latest--details--intro {
-    width: 50%;
+    width: 80%;
 }
 
 .blog--latest--img--plc {
     width: 400px;
-}
-
-.blog--latest--img {
-    margin-left: 80px;
+    padding-bottom: 50px;
 }
 
 .blog--mp {
     margin: 10px 10px 20px 50px;
     display: inline-block;
     vertical-align: top;
+    width: 35%;
 }
 
 .blog--mp--head {
@@ -57,9 +58,12 @@
 }
 
 .blog--mp--hr {
-    margin-top: 10px;
-    width: 60%;
+    margin-top: 5px;
+    width: 380px;
     height: 2px;
     background-color: #e6e6e6;
 }
 
+.blog--latest--category {
+    color: #02c39a;
+}
