@@ -1,0 +1,35 @@
+.Card {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 35px;
+  background: #f7f4f4;
+  box-shadow: -25px 25px 55px #bebebe, 25px -25px 55px #ffffff;
+}
+
+.Card-img img {
+  width: 80%;
+  padding-top: 20px;
+}
+
+.doctor-name {
+  font-size: 1.2rem;
+  margin-top: 18px;
+}
+
+.Card-text {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Card-socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px 0px;
+}
+
+.Card-socials i {
+  font-size: 28px;
+  color: #87898c;
+}
