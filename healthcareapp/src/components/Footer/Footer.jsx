@@ -6,10 +6,10 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-socials">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-regular fa-envelope"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
+          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-regular fa-envelope"></i>
+          <i className="fa-brands fa-linkedin-in"></i>
         </div>
         <div className="footer-main-content">
           <div className="footer-content">

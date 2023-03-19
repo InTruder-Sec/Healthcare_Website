@@ -5,14 +5,15 @@ import logo from '../../images/logo.png';
 const NavBar = () => {
   return (
     <div className="navBar">
-      <div
+      <a
         className="left"
         onClick={() => {
           window.scrollTo(0, 0);
         }}
+        href="/"
       >
         <img src={logo} alt="Logo" />
-      </div>
+      </a>
       <div className="right">
         <nav>
           <ul>
