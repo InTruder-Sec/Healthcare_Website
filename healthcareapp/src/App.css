@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /*  Styling For Pages (Routing Pages) */
 
 .home {
@@ -60,7 +59,7 @@
 
 .home-1 .home-heading-1::before,
 .home-1 .home-heading-1::after {
-  content: '';
+  content: "";
   width: 50%;
   height: 3px;
   border-radius: 4px;

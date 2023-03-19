@@ -1,7 +1,7 @@
-import React from 'react';
-import img_1 from '../images/img_1.png';
-import img_2 from '../images/img_2.png';
-import img_3 from '../images/img_3.png';
+import React from "react";
+import img_1 from "../images/img_1.png";
+import img_2 from "../images/img_2.png";
+import img_3 from "../images/img_3.png";
 
 const Home = () => {
   return (

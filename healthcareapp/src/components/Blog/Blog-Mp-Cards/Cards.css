@@ -1,34 +1,38 @@
 .blog--MpCards {
-    margin-top: 25px;
-    border: 2px solid #ffb703;
-    border-radius: 5px;
-    width: 380px;
-    padding: 10px;
+  margin-top: 25px;
+  border: 2px solid #ffb703;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .blog--img--main {
-    width: 100px;
-    height: 60px;
-    position: absolute;
-    margin-left: 260px;
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 10px;
 }
 
-
 .blog--MpCards--cat {
-    display: inline-block;
-    color: rgb(94, 94, 94);
-    font-size: 16px;
-    font-weight: 500;
+  display: inline-block;
+  color: rgb(94, 94, 94);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .blog--MpCards--date {
-    display: inline-block;
-    color: rgb(94, 94, 94);
-    font-size: 14px;
-    margin-left: 5px;
+  display: inline-block;
+  color: rgb(94, 94, 94);
+  font-size: 14px;
+  margin-left: 5px;
 }
 
 .blog--MpCards--title {
-    width: 230px;
-    font-weight: 600;
+  width: 230px;
+  font-weight: 600;
+}
+
+.blog--card--container {
+  margin-left: -50px;
 }
