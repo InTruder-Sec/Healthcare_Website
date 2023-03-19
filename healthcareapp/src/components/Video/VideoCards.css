@@ -1,0 +1,45 @@
+.video--cards--li {
+  width: 80%;
+  height: 350px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+iframe {
+  width: 450px;
+  height: 280px;
+  float: left;
+}
+
+.video--card--details {
+  width: 60%;
+  float: right;
+  text-align: left;
+}
+
+.video--card--details--ri {
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.video--card--container--ri {
+  float: right;
+}
+
+.video--card--details--head {
+  font-size: 24px;
+  width: fit-content;
+  font-weight: 500;
+}
+.video--card--details--head::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #02c39a;
+}
+
+.video--card--details--body {
+  margin-top: 30px;
+}

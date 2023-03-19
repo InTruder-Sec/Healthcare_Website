@@ -8,9 +8,8 @@ const Blog = () => {
   return (
     <div className="blog">
       <div className="blog-heading blog-heading--main">
-        <h1>
-          A good laugh and a long sleep are the best cures in the doctor's book.
-        </h1>
+        <h1>A good laugh and a long sleep are the</h1>
+        <h1>best cures in the doctor's book.</h1>
       </div>
       <div className="blog--main">
         <div className="blog--latest">

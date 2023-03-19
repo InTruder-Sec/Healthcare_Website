@@ -81,6 +81,7 @@
   width: 140px;
   height: 50px;
   border-radius: 25px;
+  cursor: pointer;
   margin-top: 80px;
   transition: 0.3s;
 }
@@ -88,7 +89,8 @@
 .blog-heading {
   width: 100%;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 125px;
+  font-size: 1.4rem;
   margin-bottom: 100px;
 }
 
@@ -96,7 +98,7 @@
 .blog-heading::before {
   content: "";
   width: 50%;
-  height: 3px;
+  height: 4px;
   border-radius: 4px;
   margin-top: -50px;
   background-color: #ffb703;
@@ -106,7 +108,7 @@
 .blog-heading--main {
   width: 100%;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 15px;
   margin-bottom: 150px;
 }
 
