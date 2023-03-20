@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.App {
+  overflow: hidden;
+}
+
 /*  Styling For Pages (Routing Pages) */
 
 .home {
@@ -99,4 +103,178 @@
 
 .img-2 {
   margin-left: -20%;
+}
+
+@media screen and (max-width: 1290px) {
+  .home .home-img img {
+    width: 100%;
+    margin-top: -76px;
+  }
+
+  .home-text .home-text-heading {
+    font-size: 1.7rem;
+  }
+
+  .home .home-img {
+    margin-left: -13%;
+  }
+
+  .home-text-sub-text {
+    font-size: 15px;
+  }
+
+  .img-2 {
+    margin-left: -10%;
+  }
+
+  .home-content-1 .home-1-img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .home-text .home-text-heading {
+    font-size: 1.5rem;
+  }
+
+  .home-text-sub-text {
+    font-size: 13px;
+  }
+
+  .home .home-img img {
+    width: 96%;
+    margin-top: -86px;
+  }
+
+  .home-text-sub-text {
+    width: 95%;
+  }
+
+  .home-text-btns .btn {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .home-content-1 .home-1-img img {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home-text .home-text-heading {
+    font-size: 1.3rem;
+  }
+
+  .home .home-img {
+    margin-left: -20%;
+    margin-right: -100px;
+  }
+
+  .home .home-img img {
+    width: 85%;
+    margin-top: -86px;
+  }
+
+  .home-text-sub-text {
+    width: 80%;
+  }
+
+  .home-1 .home-heading-1 {
+    font-size: 1.2rem;
+  }
+
+  .home-1-text-1,
+  .home-1-text-2 {
+    font-size: 2rem;
+  }
+
+  .img-2 {
+    margin-left: -20%;
+    margin-right: -119px;
+  }
+
+  .home-content-1 .home-1-img img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .home .home-img {
+    display: none;
+  }
+
+  .homr-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-text .home-text-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .home-text-sub-text {
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .home-text-btns a {
+    margin-left: 49px;
+  }
+
+  .home-text-btns {
+    text-align: center;
+  }
+
+  .home-content-1 {
+    flex-direction: column;
+  }
+  .home-1-text {
+    text-align: center;
+  }
+  .home-1-img {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home {
+    margin-top: -40%;
+  }
+
+  .home-text .home-text-heading {
+    font-size: 1.1rem;
+  }
+
+  .home-text-sub-text {
+    padding: 0px 15px;
+    font-size: 14px;
+  }
+
+  .home-1 .home-heading-1 {
+    font-size: 1rem;
+    margin-top: -5%;
+  }
+
+  .home-content-1 {
+    margin: 20% 0 8% 0;
+  }
+
+  .home-1-text-1,
+  .home-1-text-2 {
+    font-size: 1.7rem;
+  }
+
+  .home-1-img {
+    margin-left: 14%;
+  }
+  
+  .img-2 {
+    margin-left: -2%;
+  }
+
+  .home-content-1 .home-1-img img {
+    width: 80%;
+  }
 }
