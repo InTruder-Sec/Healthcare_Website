@@ -39,3 +39,55 @@
   gap: 2.5rem;
   margin: 50px 50px;
 }
+
+@media screen and (max-width: 780px) {
+  .testimonials-heading {
+    font-size: 1.3rem;
+  }
+
+  .testimonials-main-heading {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .testimonials-heading {
+    font-size: 1.2rem;
+  }
+
+  .testimonials-main-heading {
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials-heading {
+    font-size: 1rem;
+  }
+
+  .testimonials-main-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .testimonials-heading {
+    font-size: 0.8rem;
+  }
+
+  .testimonials-main-heading {
+    font-size: 1.5rem;
+    margin-top: 8%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .testimonials-heading {
+    font-size: 0.6rem;
+  }
+
+  .testimonials-main-heading {
+    font-size: 1.3rem;
+    margin-top: 15%;
+  }
+}

@@ -87,3 +87,86 @@
 .services-content-description {
   color: #87898c;
 }
+
+@media screen and (max-width: 885px) {
+  .services-mid {
+    width: 36%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .services-heading {
+    font-size: 1.3rem;
+  }
+
+  .services-main-heading {
+    font-size: 1.8rem;
+  }
+
+  .services-content {
+    gap: 8rem;
+  }
+
+  .services-mid {
+    display: none;
+  }
+
+  .services-left,
+  .services-right {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services-heading {
+    font-size: 1.2rem;
+  }
+
+  .services-main-heading {
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services-heading {
+    font-size: 1rem;
+  }
+
+  .services-main-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .services-heading {
+    font-size: 0.8rem;
+  }
+
+  .services-main-heading {
+    font-size: 1.5rem;
+    margin-top: 8%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .services-heading {
+    font-size: 0.6rem;
+  }
+
+  .services-main-heading {
+    font-size: 1.3rem;
+    margin-top: 15%;
+  }
+
+  .services-content {
+    display: block;
+    text-align: center;
+  }
+
+  .services-left,
+  .services-right {
+    width: 100%;
+    text-align: center;
+    padding: 0 25px;
+  }
+}
