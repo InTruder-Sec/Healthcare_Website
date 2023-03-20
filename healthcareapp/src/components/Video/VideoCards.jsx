@@ -33,16 +33,7 @@ function VideoCardLI() {
 
 function VideoCardRI() {
   return (
-    <div className="video--cards--li">
-      <div className="video--card--container--ri">
-        <iframe
-          src="https://www.youtube.com/embed/8Fw-Up81SvU?controls=0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
+    <div className="video--cards--li video--cards--ri ">
       <div className="video--card--details--ri">
         <div className="video--card--details--head">
           Lorem ipsum dolor, sit amet consectetur
@@ -55,6 +46,15 @@ function VideoCardRI() {
           molestias esse reprehenderit pariatur, harum modi dicta, corrupti
           omnis atque. Quas soluta quod quis.
         </div>
+      </div>
+      <div className="video--card--container--ri">
+        <iframe
+          src="https://www.youtube.com/embed/8Fw-Up81SvU?controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );

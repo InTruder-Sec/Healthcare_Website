@@ -9,12 +9,13 @@
   display: inline-block;
   border-radius: 5px;
   padding: 50px 60px 50px 60px;
-  margin-left: 8%;
+  margin-left: 20px;
 }
 
 .blog--latest--head {
   font-size: 42px;
   margin-top: -8px;
+  text-align: start;
 }
 
 .blog--author--name {
@@ -42,6 +43,10 @@
   width: 80%;
 }
 
+.blog--latest--author {
+  text-align: start;
+}
+
 .blog--latest--img--plc {
   width: 400px;
   padding-bottom: 50px;
@@ -55,6 +60,7 @@
 
 .blog--mp--head {
   font-size: 28px;
+  text-align: start;
 }
 
 .blog--mp--hr {
@@ -66,6 +72,7 @@
 
 .blog--latest--category {
   color: #02c39a;
+  text-align: start;
 }
 
 .blog--feature {
@@ -119,4 +126,34 @@
 
 .blog--lm--btn:hover {
   background-color: #ffe49f;
+}
+
+@media (max-width: 1165px) {
+  .blog--main {
+    width: 90%;
+    margin-left: 0px;
+    padding: 20px 30px 20px 30px;
+  }
+  .blog--latest--img--plc {
+    width: 80%;
+  }
+  .blog--latest--head {
+    font-size: 32px;
+  }
+  .blog--latest--details--intro {
+    width: 95%;
+  }
+  .blog--mp {
+    margin-top: 60px;
+    margin-left: -0px;
+  }
+  .blog--mp--head {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 680px) {
+  .blog-heading {
+    font-size: 0.8rem;
+  }
 }

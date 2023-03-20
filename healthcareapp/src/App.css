@@ -64,7 +64,7 @@
 
 .home-1 .home-heading-1::before,
 .home-1 .home-heading-1::after {
-  content: '';
+  content: "";
   width: 50%;
   height: 3px;
   border-radius: 4px;
@@ -240,7 +240,7 @@
 
 @media screen and (max-width: 400px) {
   .home {
-    margin-top: -40%;
+    margin-top: -50%;
   }
 
   .home-text .home-text-heading {
@@ -269,7 +269,7 @@
   .home-1-img {
     margin-left: 14%;
   }
-  
+
   .img-2 {
     margin-left: -2%;
   }

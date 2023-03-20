@@ -1,6 +1,7 @@
-import React from 'react';
-import './NavBar.css';
-import logo from '../../images/logo.png';
+import React from "react";
+import "./NavBar.css";
+import logo from "../../images/logo.png";
+import Hamburger from "./Hamburger";
 
 const NavBar = () => {
   return (
@@ -38,6 +39,7 @@ const NavBar = () => {
           </ul>
         </nav>
       </div>
+      <Hamburger />
     </div>
   );
 };

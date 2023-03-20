@@ -41,3 +41,11 @@
   margin-top: 15px;
   color: #464646;
 }
+
+@media (max-width: 480px) {
+  .blog--feature--card {
+    width: 340px;
+    margin-left: 55px;
+    height: 410px;
+  }
+}

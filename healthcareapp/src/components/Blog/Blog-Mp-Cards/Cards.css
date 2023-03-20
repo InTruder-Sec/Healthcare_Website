@@ -4,6 +4,7 @@
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  text-align: start;
 }
 
 .blog--img--main {
@@ -35,4 +36,16 @@
 
 .blog--card--container {
   margin-left: -50px;
+}
+
+@media (max-width: 480px) {
+  .blog--MpCards--title {
+    width: 200px;
+  }
+  .blog--img--main {
+    margin-left: 200px;
+  }
+  .blog--MpCards {
+    width: 330px;
+  }
 }

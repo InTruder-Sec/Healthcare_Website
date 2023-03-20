@@ -1,19 +1,21 @@
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Gallery from './pages/Gallery';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Testimonials from './pages/Testimonials';
-import Services from './pages/Services';
-import Videos from './pages/Videos';
-import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Gallery from "./pages/Gallery";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Testimonials from "./pages/Testimonials";
+import Services from "./pages/Services";
+import Videos from "./pages/Videos";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
+import { HamburgerOpen } from "./components/NavBar/Hamburger";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <HamburgerOpen />
       <BrowserRouter>
         <Routes>
           <Route path="/" exact element={<Home />} />
