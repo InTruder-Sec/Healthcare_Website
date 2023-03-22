@@ -58,6 +58,10 @@
     font-size: 14px;
   }
 
+  .footer-top-socials {
+    display: none;
+  }
+
   .footer-bottom {
     font-size: 11px;
   }
