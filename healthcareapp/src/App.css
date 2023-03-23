@@ -235,8 +235,10 @@
   .home-1-text {
     text-align: center;
   }
+
   .home-1-img {
-    margin-left: 10%;
+    margin-left: 6%;
+    width: 62%;
   }
 }
 
@@ -288,7 +290,7 @@
   }
 
   .img-2 {
-    margin-left: -2%;
+    margin-left: -10%;
   }
 
   .home-content-1 .home-1-img img {
